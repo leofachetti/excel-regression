@@ -23,11 +23,11 @@ var expectedPredictedY = [
 
 describe('residual output', function () {
   it('should return the number of observations', function() {
-    expect(regression.calculate(validData).observation).to.be.equal(validData.length);
+    expect(regression.calculate(validData).residual.observation).to.be.equal(validData.length);
   });
 
   it('should return the predictedY', function() {
-    var predictedY = regression.calculate(validData).predictedY;
+    var predictedY = regression.calculate(validData).residual.predictedY;
     expect(predictedY.length).to.be.equal(validData.length);
     expect(predictedY).to.be.deep.equal(expectedPredictedY);
   });
