@@ -16,4 +16,8 @@ describe('math utils', function () {
   it('should return the average', function() {
     expect(57797227.66667).to.be.equal(math.average(values));
   });
+
+  it('should return the SS', function() {
+    expect(1147239156098787.5).to.be.equal(math.SS(values));
+  });
 });
