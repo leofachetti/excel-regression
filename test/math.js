@@ -20,4 +20,8 @@ describe('math utils', function () {
   it('should return the SS', function() {
     expect(1147239156098787.5).to.be.equal(math.SS(values));
   });
+
+  it('should return the SSE', function() {
+    expect(425436769345.9457).to.be.equal(math.SSE(values));
+  });
 });
