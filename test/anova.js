@@ -23,4 +23,9 @@ describe('anova', function () {
   it('should return the varX1 coefficient', function() {
     expect(regression.calculate(validData).anova.varX1.coefficient).to.be.equal(expectedVarX1Coefficient);
   });
+
+  it('should return the regression df', function() {
+    expect(1).to.be.equal(regression.calculate(validData).anova.regression.df);
+  });
+
 });
