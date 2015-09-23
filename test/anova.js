@@ -28,4 +28,8 @@ describe('anova', function () {
     expect(1).to.be.equal(regression.calculate(validData).anova.regression.df);
   });
 
+  it('should return the regression SS', function() {
+    expect(1146813719329441.5).to.be.equal(regression.calculate(validData).anova.regression.ss);
+  });
+
 });
