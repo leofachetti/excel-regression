@@ -36,4 +36,8 @@ describe('anova', function () {
     expect(4).to.be.equal(regression.calculate(validData).anova.residual.df);
   });
 
+  it('should return the total df', function() {
+    expect(5).to.be.equal(regression.calculate(validData).anova.total.df);
+  });
+
 });
