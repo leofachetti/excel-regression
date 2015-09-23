@@ -16,4 +16,8 @@ describe('summary output', function () {
   it('should return the r square', function() {
     expect(0.999629165).to.be.equal(regression.calculate(validData).summary.rSquare);
   });
+
+  it('should return the multiple r', function() {
+    expect(0.999814565).to.be.equal(regression.calculate(validData).summary.multipleR);
+  });
 });
