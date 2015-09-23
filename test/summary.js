@@ -20,4 +20,8 @@ describe('summary output', function () {
   it('should return the multiple r', function() {
     expect(0.999814565).to.be.equal(regression.calculate(validData).summary.multipleR);
   });
+
+  it('should return the adjusted r square', function() {
+    expect(0.999536456).to.be.equal(regression.calculate(validData).summary.adjustedRSquare);
+  });
 });
