@@ -29,7 +29,7 @@ describe('summary output', function () {
     expect(326127.5706).to.be.equal(regression.calculate(validData).summary.standardError);
   });
 
-  it('should return the standard error', function() {
+  it('should return the number of observations', function() {
     expect(6).to.be.equal(regression.calculate(validData).summary.observations);
   });
 });
