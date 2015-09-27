@@ -44,4 +44,8 @@ describe('anova', function () {
     expect(5).to.be.equal(regression.calculate(validData).anova.total.df);
   });
 
+  it('should return the total SS', function() {
+    expect(1147239155761893.5).to.be.equal(regression.calculate(validData).anova.total.ss);
+  });
+
 });
