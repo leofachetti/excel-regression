@@ -32,6 +32,10 @@ describe('anova', function () {
     expect(1146813719329441.5).to.be.equal(regression.calculate(validData).anova.regression.ss);
   });
 
+  it('should return the regression MS', function() {
+    expect(1146813719666335.5).to.be.equal(regression.calculate(validData).anova.regression.ms);
+  });
+
   it('should return the residual df', function() {
     expect(4).to.be.equal(regression.calculate(validData).anova.residual.df);
   });
