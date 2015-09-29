@@ -1,7 +1,5 @@
 var regression = require('../lib');
 var expect = require('chai').expect;
-var should = require('chai').should();
-var assert = require('chai').assert;
 
 var validData = [
   [0.827106,	32699512],
