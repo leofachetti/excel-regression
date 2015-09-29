@@ -1,5 +1,13 @@
 language: node_js
 node_js:
-  - '0.10'
-  - '0.12'
-  - 'iojs'
+- '0.10'
+- '0.12'
+- iojs
+deploy:
+  provider: npm
+  email: developer.fachetti@gmail.com
+  api_key:
+    secure: Lxwi8otePSonRN+/wqUTNrBplbog9nYBXrm0RX6qZWWY7ftXAExt00H9F2Koko/VxJlNNxDQzmZfZ6bAnYHEuvVPAfggzu3u1FcLfb91z1VO0sAveeQ2dtVobqYXGRj2DDHwrv1CqaPMtR8cietW63meSTSBVCEmC9NJTRQkuqLI3DyHATn4alkG8YaKWI03hlzm/l+aSjvwcU/QzMzEj2Wo1jiXo8Yk2gENni1glReg0I4SceKYCBRdxRXmUIdpcGnS1RDVfJbI6oRUpsN4aCpN+e3BqhKmiiDxmq0oXZaow4EZGA7z1Vh8Uea2DXl/ZQZPwNQM55oP3tENmwqB1tygUyP7jr/UkNFHRv2Dy7u7sDs44+X3zr+t4qKSmhvrI1Fc7pJIxKMtghlb7+7jynF6l+hfSP8Hv0pGY4OXaye8DUqRFwELeQN3atB+67W8BSsSiRnSfE+3eyymM+A/iyMcEXq19xxj9z7pEdIUoPnaRaDMpwFDnzQ5VdZiegPVXqlpAqnkjbqp24ZJsklwzdd0w1MHeaI2v9EY84UzN6zYhVWfO54rqbsg4FVxdi+I0+hSS/U/UUPCxXvhAWx5V7K6d4rYaZRJ27QwoLP8bNcbnLyKmtgKXmo8QDnGucv+E70wBtMfyXYsATRQoyD6n1KIIqIuoFf9ISc8Cjj7dyg=
+  on:
+    tags: true
+    repo: leofachetti/excel-regression
