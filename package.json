@@ -1,19 +1,20 @@
 {
   "name": "excel-regression",
   "version": "0.0.0",
-  "description": "",
-  "homepage": "",
+  "description": "Excel Regression",
   "repository": "leofachetti/excel-regression",
   "author": {
     "name": "Leonardo Fachetti",
-    "email": "leofachetti@gmail.com",
-    "url": ""
   },
   "files": [
     "dist"
   ],
   "main": "dist/index.js",
-  "keywords": [],
+  "keywords": [
+    "excel",
+    "regression",
+    "analysis"
+  ],
   "devDependencies": {
     "gulp": "^3.6.0",
     "gulp-eslint": "^1.0.0",
