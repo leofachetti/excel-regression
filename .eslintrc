@@ -30,7 +30,7 @@
     ],
     "space-after-keywords": [
       2,
-      "always"
+      "never"
     ],
     "array-bracket-spacing": [
       2,
