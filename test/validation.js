@@ -21,7 +21,7 @@ describe('data validation', function() {
 
   it('should throw a TypeError when attribute is a string', function() {
     var func = function() {
-      validation.validate("");
+      validation.validate('');
     };
     expect(func).to.throw(TypeError);
     expect(func).to.throw(/Attribute `values` must be a array/);
