@@ -48,7 +48,7 @@ gulp.task('test', ['pre-test'], function(cb) {
 });
 
 gulp.task('coveralls', ['test'], function() {
-  if (!process.env.CI) {
+  if(!process.env.CI) {
     return;
   }
 
