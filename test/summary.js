@@ -12,7 +12,7 @@ var validData = [
   [1.904614,	75539606]
 ];
 
-describe('summary output', function () {
+describe('summary output', function() {
   it('should return the r square', function() {
     expect(0.999629165).to.be.equal(regression.calculate(validData).summary.rSquare);
   });

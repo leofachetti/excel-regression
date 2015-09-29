@@ -13,7 +13,7 @@ var validData = [
 var expectedInterceptCoefficient = -57754.83954;
 var expectedVarX1Coefficient = 39501989.4995;
 
-describe('anova', function () {
+describe('anova', function() {
   it('should return the intercept coefficient', function() {
     expect(regression.calculate(validData).anova.intercept.coefficient).to.be.equal(expectedInterceptCoefficient);
   });

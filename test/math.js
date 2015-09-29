@@ -12,7 +12,7 @@ var values = [
   [1.904614,	75539606]
 ];
 
-describe('math utils', function () {
+describe('math utils', function() {
   it('should return the average', function() {
     expect(57797227.66667).to.be.equal(math.average(values));
   });
