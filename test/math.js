@@ -1,7 +1,5 @@
 var math = require('../lib/utils/math');
 var expect = require('chai').expect;
-var should = require('chai').should();
-var assert = require('chai').assert;
 
 var values = [
   [0.827106,	32699512],
