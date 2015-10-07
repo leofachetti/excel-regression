@@ -1,4 +1,5 @@
-# excel-regression [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# excel-regression
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 >
 
 
@@ -13,8 +14,15 @@ $ npm install --save excel-regression
 
 ```js
 var excelRegression = require('excel-regression');
-
-excelRegression('Rainbow');
+var data = [
+  [0.827106, 32699512],
+  [1.275007, 50550730],
+  [1.435098, 56214886],
+  [1.597657, 63010730],
+  [1.748174, 68767902],
+  [1.904614, 75539606]
+];
+excelRegression.calculate(data);
 ```
 
 ## License
